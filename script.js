@@ -44,6 +44,7 @@ items.forEach((item) => {
     let priceElement = item.querySelector("p");
     let price = priceElement ? priceElement.textContent : "QAR 0.00";
     let img = item.querySelector("img").src;
+    alert("Item added!");
 
     cartItem.push(product);
     cartPrice.push(price);
