@@ -109,6 +109,8 @@ function clearCart() {
     <button id="checkout">Refresh Cart</button>
   `;
   alert("Done! Thank you for shopping with Eco-Shop! Will see you next time!");
-
+  cartItem.length = 0;
+  cartPrice.length = 0;
+  cartImg.length = 0;
   document.getElementById("checkout").addEventListener("click", updateCart);
 }
