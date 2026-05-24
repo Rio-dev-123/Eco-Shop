@@ -1,0 +1,402 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.black {
+  color: #108524;
+  font-style: italic;
+  transition: font-size 0.4s ease;
+}
+
+.black:hover {
+  font-size: 20px;
+}
+
+body {
+  background-color: ;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transistion: font-size: 0.4s ease;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.navbar ul li {
+  list-style: none;
+  color: black;
+  transition: font-size 0.4s ease;
+}
+
+.navbar ul li:hover {
+  font-size: 25px;
+}
+
+.navbar {
+  background: rgb(255, 255, 255, 0.3);
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  font-family: Poppins;
+  font-weight: 700;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero {
+  background-color: #EBFFEB;
+  padding: 20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.navbar button {
+  margin-right: 10px;
+}
+
+.hero h1 {
+  font-family: Poppins;
+  color: #0E731F;
+  font-weight: 700;
+}
+
+.hero p {
+  font-family: Poppins;
+  color: #335942;
+  font-weight: 400;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  bottom: 0;
+  font-family: Poppins;
+  padding-right: 20px;
+  font-weight: 400;
+}
+
+.footer h1 {
+  font-family: Poppins;
+  font-weight: 700;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.download img {
+  height: 10vh;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-hr {
+  border: none;
+  height: 2px;
+  background-color: white;
+}
+
+.collections {
+  background-color: #007516;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  font-weight: 400;
+  font-family: Poppins;
+  border-radius: 8px;
+  transition: background 0.4s ease, box-shadow 0.4s ease, width 0.4s ease, height 0.4s ease;
+  cursor: pointer;
+}
+
+.collections:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+  background-color: #012B09;
+  width: 110px;
+  height: 50px;
+}
+
+.collections1 {
+  background-color: #007516;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 150px;
+  height: 40px;
+  font-weight: 400;
+  font-family: Poppins;
+  border-radius: 8px;
+  transition: background 0.4s ease, box-shadow 0.4s ease, width 0.4s ease, height 0.4s ease;
+  cursor: pointer;
+}
+
+.collections1:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+  background-color: #012B09;
+  width: 160px;
+  height: 50px;
+}
+
+#sale h1 {
+  font-weight: 700;
+  font-family: Poppins;
+}
+
+#sale p {
+  font-weight: 400;
+  font-family: Poppins;
+}
+
+a {
+  cursor: pointer;
+}
+
+.jacket img {
+  width: 100%;
+  height: 800px;
+  margin-top: 100px;
+}
+
+.shirtlist li img {
+  height: 100px;
+  width: 100px;
+}
+
+.display {
+  list-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.display img {
+  width: 225px;
+  height: 225px;
+  border-radius: 20px;
+}
+
+.display-item {
+  height: 350px;
+  width: 320px;
+  align-items: center;
+  margin: 10px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-color: black;
+  background-color: #DBFFBF;
+  transition: box-shadow 0.4s ease, background 0.4s ease, width 0.4s ease, height 0.4s ease;
+}
+
+.display-item:hover {
+  box-shadow: 0 0 20px #8CFF2E;
+  background: #ABFF69;
+}
+
+.display-heading {
+  text-align: center;
+  position: relative;
+  font-family: Poppins;
+  font-weight: 700; 
+}
+
+.display-heading:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 40px;
+  width: 125px;
+  height: 3px;
+  background-color: green;
+  left: 575px;
+  border-radius: 50px;
+}
+
+.mission img {
+  width: 100%;
+  height: 700px;
+  margin-top: 110px;
+  margin-bottom: 10px;
+}
+
+#logo {
+  transition: font-size 0.4s ease;
+}
+
+#logo:hover {
+  font-size: 20px;
+  width: 120px;
+  height: 120px;
+}
+
+.hero img {
+  width: 200px;
+  height: 200px;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+#holder-text {
+  display: flex;
+  font-family: Poppins;
+  font-weight: 700;
+  gap: 40px;
+  margin-left: 30px;
+  font-size: 30.5px;
+  margin-top: 20px;
+}
+
+#indicator {
+  background-color: #2EED00;
+  height: 3px;
+  position: absolute;
+  top: 970px;
+  width: 100px;
+  left: 40px;
+  border-radius: 20px;
+  border: 0px;
+  transition: left 0.6s ease;
+}
+
+#holder {
+  display: flex;
+  position: relative;
+  width: 200vw;
+  overflow: hidden;
+  transition: transform 0.8s cubic-bezier(0.22, 0.61, 0.36, 1);
+  will-change: transform;
+}
+
+#myCart {
+  transition: transform 0.4s ease;
+  width: 100vw;
+  margin-top: 30px;
+}
+
+#shop {
+  transition: transform 0.4s ease;
+  width: 100vw;
+  height: 100%;
+}
+
+#holder.active #shop {
+  transform: translateX(100vw);
+}
+
+#holder.active #shop {
+  transfrom: translateX(-100vw);
+}
+
+#holder-text button {
+  background-color: white;
+  border: none;
+  font-weight: 700;
+  font-family: Poppins;
+  font-size: 30.5px;
+}
+
+.display-item h1 {
+  font-family: Poppins;
+  weight: 700;
+}
+
+#lemon::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-image: url("sale.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: -10px;
+  right: -15px;
+}
+
+#lemon {
+  position: relative;
+}
+
+#lemon div {
+  padding-bottom: 200px;
+}
+
+.display-item p {
+  font-family: Poppins;
+  font-weight: 400;
+}
+
+#checkout {
+  background-color: #007516;
+  border: none;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  font-weight: 400;
+  font-family: Poppins;
+  border-radius: 8px;
+  transition: background 0.4s ease, box-shadow 0.4s ease, width 0.4s ease, height 0.4s ease;
+  cursor: pointer; 
+}
+
+#checkout:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+  background-color: #012B09;
+  width: 110px;
+  height: 50px; 
+}
+
+button, .display-item {
+  cursor: pointer;
+}
+
+.footer a {
+  transition: font-size 0.4s ease;
+}
+
+.footer a:hover {
+  font-size: 30px;
+}
+
+.footer img {
+  transition: width 0.4s ease, height 0.4s ease;
+  cursor: pointer;
+}
+
+.footer img:hover {
+  width: 210px;
+  height: 60px;
+} 
+
+del {
+  text-decoration: line-through;
+}
